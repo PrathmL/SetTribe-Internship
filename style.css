@@ -294,3 +294,72 @@ body {
     font-size: 40px;
   }
 }
+.block{
+  height:600px ;
+  width: 50%;
+}
+.new_block1{
+  background-image: url('https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/075580a2-160b-460c-9ca0-2b2c97201e17/AS+M+NK+DF+ENERGY+TOP+LS.png');
+  position: absolute;
+  z-index: 2;
+  
+
+}
+.new_block2{
+  background-image: url('https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/58346ead-7631-41f2-b06f-aa8012dcbf97/AS+M+NK+DF+UV+HYVERSE+SS.png');
+  position: absolute;
+  left: 20%;
+  top: 300%;
+  z-index: 3;
+  
+
+
+}
+.new_block3{
+background-image: url('https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/efb0ef8f-2597-41d8-bed1-3a01a75f0bf1/AS+M+NK+DFADV+STRIDE+NVLTY+SS.png');
+  position: absolute;
+  left: 40%;
+  top: 325%;
+}
+.cards{
+  display: flex;
+  height: 500px;
+  background-color: burlywood;
+}
+.cards_data{
+  background-color: aquamarine;
+  height: 90%;
+  width: 25%;
+  align-content: center;
+  justify-items: center;
+  margin: 10px;
+  
+}
+.inner_Cards{
+  background-color: crimson;
+  width: 90%;
+  height: 90%;
+}
+.card_img{
+  background-color: bisque;
+  height: 70%;
+}
+.cards_info{
+background-color: chocolate;
+height: 30%;
+}
+.card_img2{
+  display: none;
+}
+.card_img:hover{
+  cursor: pointer;
+  height: 71%;
+  border: 2px solid gray;
+}
+.card_img:hover > .card_img1{
+  display: none;
+
+}
+.card_img:hover > .card_img2{
+  display: block;
+}
